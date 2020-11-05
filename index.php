@@ -15,7 +15,7 @@ echo'<!DOCTYPE html>
     <div class="formulario">
     <h2>Introducción Datos</h2>
         <form action="index.php">
-            <input type="text" id="number1" name="number1" placeholder="Introduce un número" required><br><br>
+            <input type="text" id="number1" name="number1" placeholder="IP decimal" required><br><br>
             <button type="submit">Mostrar Información</button>
         </form>
     </div>
