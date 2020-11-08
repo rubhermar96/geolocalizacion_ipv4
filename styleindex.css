@@ -64,12 +64,11 @@ button{
 button:hover{
     background-color: rgb(245, 53, 53);
 }
-
-li{
+.lista{
     font-family: monospace;
     font-weight: bold;
     font-size: 21px;
     padding: 5px;
     position: relative;
-    left: 50px;
+    left: 80px;
 }

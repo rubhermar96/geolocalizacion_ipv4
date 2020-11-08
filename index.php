@@ -32,7 +32,7 @@ echo'<!DOCTYPE html>
         $ip = Inet::dtop($decimal_ip);
         $ip_address = $ip;
         $details = $client->getDetails($ip_address);
-        echo '<ul><li>Ip: '.$details->ip.'</li><li>Ciudad --> '.$details->city.'</li><li>País --> '.$details->country_name.'</li><li>Código País --> '.$details->country.'</li><li>Código Postal --> '.$details->postal.'</li><li>Zona Horaria --> '.$details->timezone.'</li><li>Organización --> '.$details->org.'</li><li>Latitud --> '.$details->latitude.'</li><li>Longitud --> '.$details->longitude.'</li></ul>';           
+        echo '<ul class="lista"><li>Ip: '.$details->ip.'</li><li>Ciudad --> '.$details->city.'</li><li>País --> '.$details->country_name.'</li><li>Código País --> '.$details->country.'</li><li>Código Postal --> '.$details->postal.'</li><li>Zona Horaria --> '.$details->timezone.'</li><li>Organización --> '.$details->org.'</li><li>Latitud --> '.$details->latitude.'</li><li>Longitud --> '.$details->longitude.'</li></ul>';           
 };      
 echo    '</div>
 </body>
