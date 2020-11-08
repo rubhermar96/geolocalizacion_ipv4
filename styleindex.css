@@ -24,6 +24,7 @@ h3{
 }
 h2{
     font-family: monospace;
+    font-size: 30px;
 }
 .formulario{
     border: solid 3px black;
@@ -62,4 +63,13 @@ button{
 }
 button:hover{
     background-color: rgb(245, 53, 53);
+}
+
+li{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
 }
