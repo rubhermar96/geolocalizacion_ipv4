@@ -3,7 +3,8 @@ body{
 }
 .nav{
     width: 100%;
-    background-color: darkblue;
+    /*background-color: darkblue;*/
+    background-color: red;
     margin: auto 0px;
 }
 h1{
