@@ -13,4 +13,6 @@ deploy:
 
   app: intedespli-continuo
 
-  api_key: $HEROKU_API_KEY
+  api_key:
+
+    secure: $HEROKU_API_KEY
